@@ -1,7 +1,7 @@
 var jzBoxActual = null;
 
 function jzBoxMessage(actual, last) {
-    return 'image: ' + actual + ' / ' + last;
+    return '图片: ' + actual + ' / ' + last;
 }
 
 $(document).on('keydown', function (event) {
